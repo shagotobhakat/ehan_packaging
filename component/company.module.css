@@ -1,0 +1,55 @@
+.head {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+
+}
+
+.cardMain {
+    margin: 30px 0px;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+.Img {
+    transition: all linear 0.4s;
+}
+
+.Img:hover {
+    transform: scale(1.1);
+}
+
+.extra {
+    display: none;
+}
+
+@media (min-width: 722px) and (max-width: 988px) {
+    .extra {
+        display: block;
+    }
+
+    .extraOne {
+        display: none;
+    }
+
+    .Head {
+
+        padding: 10px 5px;
+        font-size: 25px;
+
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 390px) {
+
+    .Head {
+
+        padding: 10px 5px;
+        font-size: 25px;
+
+
+    }
+}

@@ -1,0 +1,21 @@
+.main {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.body {
+    padding: 60px;
+}
+
+.head {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.text {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 40px;
+}

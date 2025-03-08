@@ -1,0 +1,32 @@
+.one {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.head {
+    font-size: 30px;
+    font-weight: 600;
+    color: #95050B;
+
+}
+
+.body {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2D308F;
+    text-transform: uppercase;
+}
+
+.left {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
