@@ -62,3 +62,34 @@ body::-webkit-scrollbar-thumb {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
 }
+
+/* ------------Navbar Animation-------------*/
+
+ .head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
+    -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+    background: rgba(255, 255, 255, 0.96);
+    z-index: 9999999;
+    transition: all linear 0.3s ease;
+}
+
+.new {
+  box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
+  -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+  background: rgba(255, 255, 255, 0.96);
+  animation: menu 1s;
+}
+
+@keyframes menu {
+  from {
+    top: -70px;
+  }
+
+  to {
+    top: 0;
+  }
+}

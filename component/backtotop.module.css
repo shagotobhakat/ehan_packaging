@@ -1,0 +1,24 @@
+.main {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background: #2C3191;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 4px 5px;
+  margin-bottom: 10px;
+  border: 1px solid #94060B;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 13px;
+  right: 12px;
+  transition: all linear 0.3s;
+  z-index: 999999;
+}
+
+.main:hover {
+  color: #000;
+  background: #5C6267;
+}

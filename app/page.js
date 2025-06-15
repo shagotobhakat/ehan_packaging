@@ -6,6 +6,7 @@ import Service from "../component/service.jsx";
 import Production from "@/component/production.jsx";
 import Customer from "@/component/customer.jsx";
 import Company from "../component/company";
+import Footer from "@/component/footer.jsx";
 
 export default function Home () {
   return (
@@ -18,6 +19,7 @@ export default function Home () {
       <Production></Production>
       <Customer></Customer>
       <Company></Company>
+      <Footer></Footer>
     </>
   );
 }

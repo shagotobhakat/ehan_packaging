@@ -3,7 +3,7 @@ import Style from "./about.module.css";
 
 export default function About() {
   return (
-    <Container fluid className={Style.main} data-aos="fade-up">
+    <Container fluid id="about" className={Style.main} data-aos="fade-up">
       <Container>
         <Row>
           <Col lg={12}>

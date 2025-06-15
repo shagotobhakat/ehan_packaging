@@ -2,11 +2,13 @@
 import { useEffect } from "react";
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./globals.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./globals.css";
 import Head from "next/head";
 import LoadingScreen from '../component/loader';
+import BackTop from "@/component/backtotop";
 
 
 export default function RootLayout ( { children, pageProps } ) {
@@ -40,6 +42,7 @@ export default function RootLayout ( { children, pageProps } ) {
         ) : (
           <LoadingScreen />
         ) }
+        <BackTop />
       </body>
 
     </html>

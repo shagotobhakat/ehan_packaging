@@ -32,3 +32,15 @@
     font-weight: 400;
     color: #fff;
 }
+
+@media (min-width: 768px) and (max-width: 988px) {}
+
+@media (min-width: 575.98px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .cardMain {
+        height: 60vh;
+    }
+
+}

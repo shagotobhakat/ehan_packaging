@@ -1,4 +1,4 @@
-.head {
+/* .head {
     position: fixed;
     top: 0;
     width: 100%;
@@ -7,22 +7,7 @@
         -12px 0 8px -4px rgba(31, 73, 125, 0.8);
     background: rgba(255, 255, 255, 0.96);
     z-index: 9999999;
-}
-
-.bg {
-    background: #000000;
-    animation: menu 1s;
-}
-
-@keyframes menu {
-    from {
-        top: -70px;
-    }
-
-    to {
-        top: 0;
-    }
-}
+} */
 
 .main {
     padding: 15px 15px;
