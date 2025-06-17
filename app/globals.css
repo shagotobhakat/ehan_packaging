@@ -93,3 +93,14 @@ body::-webkit-scrollbar-thumb {
     top: 0;
   }
 }
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+  .navbar-toggler-icon {
+
+    width: 1em;
+    height: 1em;
+
+  }
+}

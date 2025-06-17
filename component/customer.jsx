@@ -16,6 +16,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
+                    className={Style.pic}
                     height={150}
                     width={350}
                     src="/perfect.png"
@@ -34,6 +35,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
+                  className={Style.pic}
                     height={150}
                     width={300}
                     src="/pran.png"
@@ -54,6 +56,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
+                  className={Style.picAci}
                     height={150}
                     width={500}
                     src="/aci.png"
@@ -74,6 +77,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
+                  className={Style.pic}
                     height={150}
                     width={350}
                     src="/haque.png"
@@ -94,6 +98,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
+                  className={Style.pic}
                     height={150}
                     width={300}
                     src="/alin.png"
@@ -112,6 +117,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
+                  className={Style.pic}
                     height={150}
                     width={300}
                     src="/fuwang.png"
@@ -132,6 +138,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
+                  className={Style.pic}
                     height={150}
                     width={300}
                     src="/Sajeeb.png"

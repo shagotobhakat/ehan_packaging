@@ -1,0 +1,56 @@
+.qty {
+    margin: 80px 0px;
+    background-color: #4C4C4C;
+}
+
+.main {
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.one {
+    font-size: 30px;
+    font-weight: 700;
+    color: #EE1A24;
+    padding: 20px 0px;
+}
+
+.two {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.left {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+}
+
+@media (min-width: 575.98px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .main {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .two {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: capitalize;
+    }
+}

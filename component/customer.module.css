@@ -29,7 +29,11 @@
 }
 
 
-@media (max-width: 575.98px) {
+@media (min-width: 768px) and (max-width: 988px) {}
+
+@media (min-width: 575.98px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 575px) {
 
     .slide {
         width: auto;
@@ -42,20 +46,14 @@
         padding: 38px 0px;
     }
 
-}
-
-@media (max-width: 393px) {
-
-    .slide {
-        width: auto;
-        height: 450px;
-        padding: 60px 20px;
-        text-align: center;
+    .pic{
+        height: 120px;
+        width: 300px;
     }
 
-    .bodyOne {
-
-        padding: 38px 0px;
+    .picAci {
+        height: 80px;
+        width: 320px;
     }
 
 }

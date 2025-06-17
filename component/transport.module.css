@@ -1,0 +1,41 @@
+.back {
+    background: url(/Carrybox.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.back::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.511);
+    z-index: 99;
+}
+
+.head {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+
+.Img {
+    position: relative;
+    border-radius: 20px;
+    z-index: 999;
+    transition: all linear 0.4s;
+}
+
+.Img:hover {
+    transform: scale(1.05);
+}

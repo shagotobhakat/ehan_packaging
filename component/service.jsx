@@ -11,7 +11,7 @@ export default function Service() {
         <Row>
           <Col lg={12}>
             <Row>
-              <Col lg={6}>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-up">
                   <Col lg={7}>
                     <Image
@@ -29,6 +29,8 @@ export default function Service() {
                     </p>
                   </Col>
                 </Row>
+              </Col>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-down">
                   <Col lg={7}>
                     <Image
@@ -46,6 +48,8 @@ export default function Service() {
                     </p>
                   </Col>
                 </Row>
+              </Col>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-up">
                   <Col lg={7}>
                     <Image
@@ -63,6 +67,8 @@ export default function Service() {
                     </p>
                   </Col>
                 </Row>
+              </Col>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-down">
                   <Col lg={7}>
                     <Image
@@ -81,7 +87,7 @@ export default function Service() {
                   </Col>
                 </Row>
               </Col>
-              <Col lg={6}>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-down">
                   <Col lg={7}>
                     <Image
@@ -99,6 +105,8 @@ export default function Service() {
                     </p>
                   </Col>
                 </Row>
+              </Col>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-up">
                   <Col lg={7}>
                     <Image
@@ -117,6 +125,8 @@ export default function Service() {
                     </p>
                   </Col>
                 </Row>
+              </Col>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-down">
                   <Col lg={7}>
                     <Image
@@ -135,6 +145,8 @@ export default function Service() {
                     </p>
                   </Col>
                 </Row>
+              </Col>
+              <Col lg={6} md={6}>
                 <Row className={Style.cardMain} data-aos="flip-up">
                   <Col lg={7}>
                     <Image

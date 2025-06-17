@@ -10,13 +10,14 @@
 }
 
 .cardMain {
-    height: 50vh;
-    margin: 30px 10px;
+    /* height: 50vh; */
+    margin: 20px 0px;
     padding: 10px 5px;
     box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
 }
 
 .body {
+    padding: 10px 15px;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -33,14 +34,16 @@
     color: #fff;
 }
 
-@media (min-width: 768px) and (max-width: 988px) {}
+@media (min-width: 768px) and (max-width: 988px) {
+    .cardBody {
+        height: 6vh;
+    }
+
+}
 
 @media (min-width: 575.98px) and (max-width: 767px) {}
 
 @media (min-width: 320px) and (max-width: 575px) {
 
-    .cardMain {
-        height: 60vh;
-    }
 
 }

@@ -13,3 +13,24 @@
     font-weight: 400;
     color: #fff;
 }
+
+
+@media (min-width: 768px) and (max-width: 988px) {
+    .body {
+        padding: 25px 7px;
+    }
+}
+
+@media (min-width: 575.98px) and (max-width: 767px) {
+    .body {
+        padding: 20px 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .body {
+        padding: 20px 10px;
+    }
+
+}

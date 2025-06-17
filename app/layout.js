@@ -35,13 +35,15 @@ export default function RootLayout ( { children, pageProps } ) {
       </Head>
       <title>EHAN Packaging Industry</title>
       <body>
-        { loading ? (
+        {/* { loading ? (
           <React.Fragment>
             { children }
           </React.Fragment>
         ) : (
           <LoadingScreen />
-        ) }
+        ) } */}
+
+        { children }
         <BackTop />
       </body>
 
