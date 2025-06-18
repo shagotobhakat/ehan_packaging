@@ -95,12 +95,29 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+@media (min-width: 768px) and (max-width: 988px) {
+  .navbar-toggler {
+
+    border: 2px solid #5C6265;
+  }
+}
+
+@media (min-width: 575.98px) and (max-width: 767px) {
+  .navbar-toggler {
+
+    border: 2px solid #5C6265;
+  }
+}
+
+
 @media (min-width: 320px) and (max-width: 575px) {
+  .navbar-toggler{
+    padding: 1px 6px;
+    border: 2px solid #5C6265;
+  }
 
   .navbar-toggler-icon {
-
-    width: 1em;
-    height: 1em;
-
+    width: 22px;
+    height: 22px;
   }
 }
