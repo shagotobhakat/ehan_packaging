@@ -1,12 +1,20 @@
+"use client";
 import { Container, Row, Col } from "react-bootstrap";
 import Style from "./company.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Production() {
   return (
     <Container style={{ marginTop: "80px" }}>
-      <h1 className={Style.head}>Sister Concern</h1>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: false }}>
+        <h1 className={Style.head}>Sister Concern</h1>
+      </motion.div>
       <Row>
         <Col lg={4} md={6}>
           <div data-aos="flip-left" className={Style.cardMain}>

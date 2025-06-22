@@ -10,7 +10,7 @@ export default function About() {
             <div className={Style.body}>
               <h1 className={Style.head}>About Us</h1>
               <p className={Style.text}>
-                EHAN Packaging Industry Started Its Journey On 2009. One Of The
+                EHAN Packaging Industry Started Its Journey On 2020. One Of The
                 Most Successful And Pioneer Businessman In Bangladesh, Engineer
                 Md. Saroar Alam Started This Business From Scratch With Only 35
                 People With Him. By The Grace Of Allah And Also The Will And

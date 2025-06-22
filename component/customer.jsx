@@ -2,12 +2,19 @@
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import Style from "./customer.module.css";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Customer() {
   return (
     <Container fluid style={{ marginTop: "80px" }}>
       <Container>
-        <h1 className={Style.head}>Customer</h1>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: false }}>
+          <h1 className={Style.head}>Customer</h1>
+        </motion.div>
       </Container>
       <Row>
         <Col lg={12}>
@@ -35,7 +42,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
-                  className={Style.pic}
+                    className={Style.pic}
                     height={150}
                     width={300}
                     src="/pran.png"
@@ -56,7 +63,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
-                  className={Style.picAci}
+                    className={Style.picAci}
                     height={150}
                     width={500}
                     src="/aci.png"
@@ -77,7 +84,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
-                  className={Style.pic}
+                    className={Style.pic}
                     height={150}
                     width={350}
                     src="/haque.png"
@@ -98,7 +105,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
-                  className={Style.pic}
+                    className={Style.pic}
                     height={150}
                     width={300}
                     src="/alin.png"
@@ -117,7 +124,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
-                  className={Style.pic}
+                    className={Style.pic}
                     height={150}
                     width={300}
                     src="/fuwang.png"
@@ -138,7 +145,7 @@ export default function Customer() {
               <Row>
                 <Col lg={12}>
                   <Image
-                  className={Style.pic}
+                    className={Style.pic}
                     height={150}
                     width={300}
                     src="/Sajeeb.png"

@@ -2,12 +2,19 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Style from "./service.module.css";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Service() {
   return (
     <Container fluid className={Style.main}>
       <Container>
-        <h1 className={Style.head}>Machineries</h1>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: false }}>
+          <h1 className={Style.head}>Machineries</h1>
+        </motion.div>
         <Row>
           <Col lg={12}>
             <Row>
