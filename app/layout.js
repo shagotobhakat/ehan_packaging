@@ -9,6 +9,7 @@ import "./globals.css";
 import Head from "next/head";
 import LoadingScreen from '../component/loader';
 import BackTop from "@/component/backtotop";
+import ScrollBar from "@/component/scrollBar";
 
 
 export default function RootLayout ( { children, pageProps } ) {
@@ -37,6 +38,7 @@ export default function RootLayout ( { children, pageProps } ) {
       <body>
         { loading ? (
           <React.Fragment>
+            <ScrollBar />
             { children }
           </React.Fragment>
         ) : (
